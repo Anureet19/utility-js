@@ -6,7 +6,7 @@ describe('Head', () => {
         expect(head([1,2,3])).toEqual(1);
     });
 
-    it('Head of [1,2,3] is undefined', () => {
+    it('Head of [] is undefined', () => {
         expect(head([])).toEqual(undefined);
     });
 
